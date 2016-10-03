@@ -1,0 +1,22 @@
+//
+// sections/portfolio: specific overrides for project pages.
+//
+
+
+@media all and (min-width: $tablet-size) {
+
+    .mobile-only {
+        display: none;
+    }
+
+    .tile {
+
+        &.__item {
+            background: transparent;
+        }
+
+        &__item::after {
+            display: block;
+        }
+    }
+}
