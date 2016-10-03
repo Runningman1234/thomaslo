@@ -1,0 +1,28 @@
+#
+# Configuration
+#
+
+# Dependencies
+gems:
+  - jekyll-sitemap
+
+# Site Meta
+name: Thomas Lo
+
+description: Thomas Lo  is a freelance web developer and Mathematics/CPA student at the University of Waterloo, always eager to grow, learn, and build.
+keywords: Thomas, Lo, Thomas Lo, university, waterloo, uwaterloo, saf, accounting, finance, cs, computer, science, software, web, design, web design, development, web development, web dev, user, interface, user interface, experience, user experience, ui, ux
+
+url: http://thomaslo.com
+baseurl: ""
+
+# Site Content
+tagline: Entrepreneur. Investor. Developer.
+
+# Assets
+sass:
+  sass_dir: assets/stylesheets/_scss
+  style: :compressed
+
+# Other
+social_media_username: Thomas Lo
+google_analytics: UA-72274516-1
