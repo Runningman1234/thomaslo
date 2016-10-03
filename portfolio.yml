@@ -1,0 +1,25 @@
+- # row1
+  - name: symphonythemes
+    title: Day Trading
+    desc: Experiences as an investor
+    size: md
+    preview: yes
+
+  - name: tydesigns
+    title: Work Experience
+    desc: Bank of China, Summer Analyst
+    size: md
+    preview: no
+
+- # row2
+  - name: gogogo
+    title: Helping with harmony Go Go
+    desc: A non-profit organization aiming to provide greater access to healthcare in the Markham region
+    size: md
+    preview: no
+
+  - name: rememberwhen
+    title: Extracurricular Activities
+    desc: ""
+    size: md
+    preview: no
