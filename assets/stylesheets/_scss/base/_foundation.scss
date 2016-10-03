@@ -1,0 +1,61 @@
+//
+// base/foundation: the default CSS for standard HTML elements.
+//
+
+
+html {
+    height: 100%;
+}
+
+html, body {
+    width: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background: color('white', 'titanium');
+    font: $light #{$default-font-size}/#{$body-lh} $body-font;
+    color: color('black', 'jet');
+    word-break: break-word;
+    vertical-align: baseline;
+}
+
+body {
+    height: auto;
+}
+
+p {
+    margin: 1.5em 0;
+    font-size: $default-font-size;
+    line-height: $body-lh;
+
+    @media all and (min-width: $tablet-size) {
+        font-size: $md-font-size;
+    }
+
+    @media all and (min-width: $desktop-width) {
+        font-size: $lg-font-size;
+    }
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+a {
+    font-weight: $regular;
+    color: color('gold');
+    text-decoration: none;
+    @include transition($default-transition);
+
+    &:hover, &:active {
+        color: color('gold', 'burnt');
+        @include transition($default-transition);
+    }
+}
+
+::selection {
+    background: transparent;
+    color: color('gold', 'burnt');
+}
