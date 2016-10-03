@@ -1,0 +1,34 @@
+//
+// modules/footer: the default footer style.
+//
+
+footer {
+    width: 100%;
+    height: auto;
+    padding: 2em 0 4em 0;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    background: color('blue', 'navy');
+    font-size: $default-font-size;
+    line-height: $default-lh;
+    color: color('white', 'silver');
+    text-align: center;
+
+    ul {
+        padding: 0;
+        margin: 0;
+        display: inline;
+        list-style: none;
+    }
+
+    li {
+        margin: 0 1em;
+        display: inline-block;
+    }
+
+    ::selection {
+        background: transparent;
+        color: color('gold', 'amber');
+    }
+}
