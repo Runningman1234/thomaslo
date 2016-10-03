@@ -1,0 +1,32 @@
+//
+// sections/about: about page overrides.
+//
+
+#about {
+
+    &__img {
+        width: 7.5em;
+        height: 7.5em;
+        margin: 0 1em 0.5em 0;
+        display: block;
+        float: left;
+        border-radius: 50%;
+
+        @media all and (min-width: $md-mobile-width) {
+            width: 8.75em;
+            height: 8.75em;
+            margin-right: 1.5em;
+        }
+
+        @media all and (min-width: $xl-mobile-width) {
+            width: 10em;
+            height: 10em;
+        }
+
+        @media all and (min-width: $tablet-size) {
+            width: 12.5em;
+            height: 12.5em;
+            margin: 0 2.5em 1em 0;
+        }
+    }
+}
