@@ -1,0 +1,17 @@
+//
+// sections/work: specific overrides for work section on landing page.
+//
+
+@media all and (min-width: $tablet-size) {
+
+    #tile-symphonythemes {
+
+        &.tile__item {
+            background: transparent;
+        }
+
+        &.tile__item::after {
+            display: block;
+        }
+    }
+}
